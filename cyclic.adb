@@ -50,7 +50,7 @@ procedure cyclic is
                delay until Next_F3;
                -- Execute F3
                f3;
-               --delay d(absolute delay is used to avoid drift);
+               --delay d(absolute delay is used here to avoid drift);
                -- Schedule the next F3 two seconds later
                Next_F3 := Next_F3 + 2.0;
 
